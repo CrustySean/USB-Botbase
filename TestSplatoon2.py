@@ -90,20 +90,8 @@ def attemptConnection():
 
 
 	#Button commands to send
-	sendCommand("click Y")
-	time.sleep(1)
-	sendCommand("click DDOWN")
-	time.sleep(0.1)
-	sendCommand("click A")
-	time.sleep(2)
-	sendCommand("click A")
-	time.sleep(0.5)
-	sendCommand("click A")
-	time.sleep(4)
-
-	sendCommand("click A")
-	time.sleep(0.7)
-	sendCommand("click A")
-	time.sleep(0.7)
-	sendCommand("click A")
-	time.sleep(0.7)
+	sendCommand("Press ZL")
+	time.sleep(3.5)
+	sendCommand("Press DUP")
+	time.sleep(3.5)
+	
